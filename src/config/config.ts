@@ -7,7 +7,7 @@ export const appConfig = {
   databaseUrl: process.env.database_url || "",
   PROJECT_ID: process.env.PROJECT_ID || "",
   private_key_id: process.env.private_key_id || "",
-  private_key: `"-----BEGIN PRIVATE KEY-----\n${process.env.private_key}==\n-----END PRIVATE KEY-----\n"`,
+  private_key: `-----BEGIN PRIVATE KEY-----\n${process.env.private_key}==\n-----END PRIVATE KEY-----\n`,
   client_email: process.env.client_email || "",
   client_id: process.env.client_id || "",
   auth_uri: process.env.auth_uri || "",
