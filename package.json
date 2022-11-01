@@ -36,5 +36,8 @@
     "@types/joi": "^17.2.3",
     "@types/morgan": "^1.9.3",
     "nodemon": "^2.0.20"
+  },
+  "engines": {
+    "node": "16.14.0"
   }
 }
