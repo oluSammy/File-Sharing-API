@@ -23,11 +23,10 @@ app.use(cookieParser());
 
 app.use(express.static(path.join(__dirname, "public")));
 
+app.use("/files", fileRouter);
 app.use("/", (req, res) => {
   return res.send("API is live and running 🚀");
 });
-
-app.use("/files", fileRouter);
 
 // catch 404 and forward to error handler
 // handles all request url that do not exits on the server
