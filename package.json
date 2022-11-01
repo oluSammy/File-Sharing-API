@@ -7,7 +7,7 @@
     "compile:dev": "tsc --w",
     "start:dev": "nodemon ./bin/www",
     "compile": "tsc",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false tsc npm run compile --prefix client && npm run build --prefix client"
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false  npm run compile && npm run build--prefix client && npm run build --prefix client"
   },
   "dependencies": {
     "@types/cookie-parser": "^1.4.3",
